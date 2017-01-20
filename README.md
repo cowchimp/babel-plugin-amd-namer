@@ -45,9 +45,9 @@ $ npm install babel-plugin-amd-namer
 }
 ```
 
-This plugin uses the same module naming logic as the built-in babel plugins (e.g. [`transform-es2015-modules-amd`](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-amd)).
-This means that it calls the internal babel method [`getModuleName`](https://github.com/babel/babel/blob/85eec9ffef9f2defbcc4cce29440c5ef230708d2/packages/babel-core/src/transformation/file/index.js#L203) to decide what the module name should be.
-See the [Babel Options docs](https://babeljs.io/docs/usage/api/#options) for customization info.
+This plugin uses the same module naming logic as the built-in babel plugins (e.g. [`transform-es2015-modules-amd`](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-es2015-modules-amd)).  
+This means that it calls the internal babel method [`getModuleName`](https://github.com/babel/babel/blob/85eec9ffef9f2defbcc4cce29440c5ef230708d2/packages/babel-core/src/transformation/file/index.js#L203) to decide what the module name should be.  
+See the [Babel Options docs](https://babeljs.io/docs/usage/api/#options) for customization info.  
 
 ## Running tests
 
