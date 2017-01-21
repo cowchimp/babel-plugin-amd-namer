@@ -2,7 +2,7 @@
 
 > A [Babel](https://github.com/babel/babel) plugin to name anonymous AMD modules
 
-This task is useful if you're using an AMD loader that requires modules to have explicit names (e.g. [almond](https://github.com/jrburke/almond)).
+This plugin is useful if you're using an AMD loader that requires modules to have explicit names (e.g. [almond](https://github.com/jrburke/almond)).
 
 ## Example
 
